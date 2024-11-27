@@ -6,10 +6,8 @@ TONNECT is a powerful Discord bot that enables cross-server communication with a
 
 - Cross-server chat with embedded messages
 - Image support
-- Staff hierarchy system (Owner, Admin, Moderator)
-- Advanced moderation commands
-- Real-time configuration
-- Server and user ban system
+- Better than ConnectX
+- Not owned by DotDev
 
 ## Setup
 
@@ -43,13 +41,13 @@ node src/index.js
 ### Configuration
 - `/setchannel` - Set the cross-chat channel for the server (Admin only)
 
-### Moderation
+### Moderation (for bot mods, they are selected by @ghostvista, not a serveradmin)
 - `/ban user` - Ban a user from using the bot (Mod+)
 - `/ban server` - Ban a server from using the bot (Admin+)
 - `/unban user` - Unban a user from using the bot (Mod+)
 - `/unban server` - Unban a server from using the bot (Admin+)
 
-### Staff Management
+### Staff Management (managed by ghostvista only)
 - `/staff add` - Add a staff member (Owner only)
 - `/staff remove` - Remove a staff member (Owner only)
 
